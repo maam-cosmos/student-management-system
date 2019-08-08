@@ -1,0 +1,105 @@
+
+
+@font-face{
+
+    font-family: Mistral;
+    src: url("../../fonts/custom_fonts/Mistral.ttf");
+}
+
+#brandStyle{
+    font-family: Mistral;
+    font-weight: bold;
+    color: #E74C3C;
+    font-size: 40px;
+}
+
+.navbar-custom{
+    background-color: #979A9A;
+}
+
+body { 
+    padding-top: 50px; 
+    background: url("../../images/home/bodyBackgroundImage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.search {
+    background:none;
+    position:absolute;
+    color:#fff;
+    top:50%;
+    left:50%;
+    padding:15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.moto{
+    background:none;
+    position:absolute;
+    color:#fff;
+    top:15%;
+    left:50%;
+    padding:15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+   font-size: 12px;
+}
+:-moz-placeholder {
+   font-style: italic; 
+   font-size: 12px;
+}
+::-moz-placeholder {
+   font-style: italic;  
+   font-size: 12px;
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+   font-size: 12px;
+}
+
+#search_box {
+/*    width: 400px;*/
+}
+
+#search_box, #search_button {
+    float: left;
+}
+
+@media(max-width:768px){
+
+    #search_box{
+        width: 250px;
+    }
+}
+@media(min-width:768px){
+    #search_box{
+        width: 300px;
+    }
+
+}
+@media(min-width:992px){
+    #search_box{
+        width: 400px;
+    }
+
+}
+@media(min-width:1170px){
+    #search_box{
+        width: 400px;
+    }
+
+}
